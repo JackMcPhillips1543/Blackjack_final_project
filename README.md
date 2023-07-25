@@ -6,7 +6,11 @@ This project is a fully functional Blackjack game written in Java, following the
 
 ## Getting Started
 
-To run the game, use Gradle to launch the application. The source code can be found in the `/app/src/main/java/blackjack` directory.
+To run the game, make sure you have the Java JDK installed. If not, you can install it from [here](https://docs.oracle.com/en/java/javase/20/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A)
+
+Clone this repository into the directory of your choice, and then use the terminal to navigate to the project directory.
+
+The source code can be found in the `/app/src/main/java/blackjack directory`.
 
 ## Features
 
@@ -46,14 +50,13 @@ To ensure flexibility and ease of future modifications, the controller follows t
 
 
 ## How to Play
-1. Make sure you have the Java JDK installed if you don't use this link:
-(https://docs.oracle.com/en/java/javase/20/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A)
-2. Clone this repo into the directory of your choosing
-3. Use the terminal to navigate to the directory and use the ``` gradle run ``` command.
-4. Place your bets!!!
+1. Once you have Java JDK installed and are in the project directory use the ``` gradle run ``` command to start the game.
+2. Place your bets to start the round.
+3. Follow the on-screen buttons to make decisions during the game (Hit, Stand, Split, etc.).
+4. The dealer will follow the Blackjack rules, and the winner will be determined at the end of each round.
    
-Follow the on-screen buttons to make decisions during the game (Hit, Stand, Split, etc.).
-The dealer will follow the Blackjack rules, and the winner will be determined at the end of each round.
+If you're unfamiliar with the rules of blackjack, you can check them out [here](https://bicyclecards.com/how-to-play/blackjack/).
 
-If you don't know the rules to blackjack check them out at this link:
-(https://bicyclecards.com/how-to-play/blackjack/)
+Enjoy playing Blackjack! Good luck!
+   
+
