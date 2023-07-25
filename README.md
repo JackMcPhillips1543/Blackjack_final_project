@@ -6,7 +6,7 @@ This project is a fully functional Blackjack game written in Java, following the
 
 ## Getting Started
 
-To run the game, use Gradle to launch the application. The source code can be found in the '/app/src/main/java/blackjack' directory.
+To run the game, use Gradle to launch the application. The source code can be found in the `/app/src/main/java/blackjack` directory.
 
 ## Features
 
@@ -26,7 +26,7 @@ The dealer model manages the dealer's hand and follows the specific rules that d
 The table model simulates the real-world table, holding both the player and the dealer models. It decides the winner of each round of betting and resets for the next round.
 
 ### View
-The View folder contains the Graphical User Interface (GUI) components of the game, primarily managed by the 'BlackJackGui class'. The GUI includes buttons and icons necessary for user interaction.
+The View folder contains the Graphical User Interface (GUI) components of the game, primarily managed by the `BlackJackGui class`. The GUI includes buttons and icons necessary for user interaction.
 
 Key design principles employed in the GUI development:
 
@@ -46,8 +46,14 @@ To ensure flexibility and ease of future modifications, the controller follows t
 
 
 ## How to Play
-1. Clone this repo into the directory of your choosing
-Place your bets and start the round.
+1. Make sure you have the Java JDK installed if you don't use this link:
+(https://docs.oracle.com/en/java/javase/20/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A)
+2. Clone this repo into the directory of your choosing
+3. Use the terminal to navigate to the directory and use the ``` gradle run ``` command.
+4. Place your bets!!!
+   
 Follow the on-screen buttons to make decisions during the game (Hit, Stand, Split, etc.).
 The dealer will follow the Blackjack rules, and the winner will be determined at the end of each round.
-Enjoy playing Blackjack with Gustavo the Loan Shark!
+
+If you don't know the rules to blackjack check them out at this link:
+(https://bicyclecards.com/how-to-play/blackjack/)
