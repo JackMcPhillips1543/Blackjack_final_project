@@ -17,16 +17,16 @@ The source code can be found in the `/app/src/main/java/blackjack directory`.
 ### Model
 The model folder contains the essential components of the game, including:
 
-**Player Model**
+**Player Model:**
 The player model encapsulates the logic used by the player throughout the game. It maintains the player's current hand, balance, and debt. Additionally, this model allows users to save and resume games, as it is serializable.
 
-**Gustavo the Loan Shark Model**
+**Gustavo the Loan Shark Model:**
 Gustavo's model tracks the player's debt and includes functions that allow borrowing money and paying off debt.
 
-**Dealer Model**
+**Dealer Model:**
 The dealer model manages the dealer's hand and follows the specific rules that dealers must adhere to in Blackjack games.
 
-**Table Model**
+**Table Model:**
 The table model simulates the real-world table, holding both the player and the dealer models. It decides the winner of each round of betting and resets for the next round.
 
 ### View
